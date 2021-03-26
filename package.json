@@ -1,0 +1,21 @@
+{
+  "name": "customer-loanee-app",
+  "version": "1.0.0",
+  "description": "A system that allows customers to create profile (imagine basic user bio data) and apply for loans.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alao-Abiodun/Customer-Loanee-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alao-Abiodun/Customer-Loanee-App/issues"
+  },
+  "homepage": "https://github.com/Alao-Abiodun/Customer-Loanee-App#readme"
+}
