@@ -1,4 +1,6 @@
-const express = require('express');
+import express from 'express';
+
+import userRoute from './routes/user.route';
 
 const app = express();
 
@@ -11,6 +13,8 @@ app.get('/', (req, res) => {
     message: 'Customer Loanee Application',
   });
 });
+
+app.use('/api/v1', userRoute);
 
 app.listen(PORT, () => {
   console.log(`The app is running on PORT ${PORT}`);
