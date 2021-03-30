@@ -23,6 +23,12 @@ const UserController = {
       data: foundUser,
     });
   },
+
+  userGetLoans(req, res) {
+    return res.status(200).json({
+      message: 'Loans loaded successfully',
+    });
+  },
 };
 
 export default UserController;
