@@ -28,6 +28,11 @@ const userService = {
     const user = dummyData.users.find(user => user.id == id);
     return user || {};
   },
+
+
+  getAvailableLoans() {
+    return;
+  }
 };
 
 export default userService;
